@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	<bean id="wmbean" class="com.spring.app.bean.WahingMachineBean">
+		<constructor-arg value="123"></constructor-arg>
+		<constructor-arg value="lg"></constructor-arg>
+		<constructor-arg value="6kg"></constructor-arg>
+		<constructor-arg value="37000"></constructor-arg>
+		
+	</bean>
+</beans>
