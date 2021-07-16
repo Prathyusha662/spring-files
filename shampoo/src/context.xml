@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	<bean id="shampoobean" class="com.spring.app.bean.ShampooBean">
+		<property name="id" value="333"></property>
+		<property name="Company" value="dove"></property>
+		<property name="name" value="dove-hair-silky"></property>
+		<property name="code" value="1515"></property>
+		<property name="price" value="140"></property>
+		<property name="chemicalsUsed" value="amonia"></property>
+		<property name="mfd" value="21-22"></property>
+
+	</bean>
+</beans>
